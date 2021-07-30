@@ -68,6 +68,8 @@ input, select, textarea {
 	appearance: none;
 }
 
+			
+
 /* Basic */
 
 	@-ms-viewport {
@@ -2527,7 +2529,7 @@ input, select, textarea {
 	}
 
 	::-webkit-input-placeholder {
-		color: #999ca0 !important;
+		color: #444446 !important;
 	}
 
 	:-moz-placeholder {
@@ -2631,9 +2633,9 @@ input, select, textarea {
 
 		.image.main {
 			border-radius: 50%;
-			display: block;
- 			margin-left: auto;
-  			margin-right: auto;
+			//display: block;
+ 			margin-left: -32px;
+  			margin-right: -32px;
   			width: 50%;
 		}
 
@@ -3803,6 +3805,9 @@ input, select, textarea {
 
 			}
 
+
+
+
 			@media screen and (max-width: 736px) {
 
 				#main > .post {
@@ -3861,10 +3866,10 @@ input, select, textarea {
 			}
 
 			#main > .posts > article {
-				border-color: #e7e4e400;
-				border-left-width: 2px;
+				border-color: #05050500;
+				border-left-width: 1px;
 				border-style: solid;
-				border-top-width: 2px;
+				border-top-width: 1px;
 				text-align: center;
 			}
 
@@ -4384,7 +4389,7 @@ input, select, textarea {
 	#copyright {
 		color: #ffffff;
 		position: relative;
-		color: rgba(255, 255, 255, 0.25);
+		color: rgba(207, 205, 205, 0.521);
 		cursor: default;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 0.8rem;
@@ -4405,7 +4410,7 @@ input, select, textarea {
 
 		#copyright a {
 			color: #ffffff;
-			border-bottom-color: rgba(255, 255, 255, 0.5);
+			border-bottom-color: rgba(253, 253, 253, 0.5);
 		}
 
 			#copyright a:hover {
