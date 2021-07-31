@@ -27,6 +27,7 @@ footer, header, hgroup, menu, nav, section {
 
 body {
 	line-height: 1;
+
 }
 
 ol, ul {
@@ -66,6 +67,67 @@ input, select, textarea {
 	-webkit-appearance: none;
 	-ms-appearance: none;
 	appearance: none;
+}
+
+.wrapper
+{
+    display: inline-flex;
+}
+.wrapper .static-txt
+{
+    font-size: 35px;
+    color: inherit;
+    font-weight: 400;
+}
+
+.wrapper .dynamic-txts
+{
+    margin-left: 15px;
+    height: 90px;
+    line-height: 90px;
+  
+    overflow: hidden;
+
+
+}
+.dynamic-txts li
+{
+    list-style: none;
+    font-size: 35px;
+    font-weight: 500;
+    color: #f55a5a;
+    position: relative;
+    top: 0;
+    animation: slide 6s steps(4) infinite;
+}
+@keyframes slide{
+    100%{
+        top: -360px;;
+    }
+
+}
+.dynamic-txts li span
+{
+    position: relative;
+}
+.dynamic-txts li span::after
+{
+    content: "";
+    left: 0;
+    
+    position: absolute;
+    height: 150%;
+    width: 100%;
+    background: #beb8b8;
+    border-left: 2px solid #383636;
+    animation: typing 1.5s steps(100) infinite;
+}
+@keyframes typing
+{
+    100%{
+        left:100%
+        
+    }
 }
 
 			
@@ -2156,6 +2218,7 @@ input, select, textarea {
 		input[type="button"].large,
 		button.large,
 		.button.large {
+			
 			font-size: 0.9rem;
 			height: 3.5rem;
 			line-height: 3.5rem;
