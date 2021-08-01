@@ -120,12 +120,12 @@ input, select, textarea {
     width: 100%;
     background: #beb8b8;
     border-left: 2px solid #383636;
-    animation: typing 1.5s steps(100) infinite;
+    animation: typing 1.5s steps(10) infinite;
 }
 @keyframes typing
 {
     100%{
-        left:100%
+        left:130%
         
     }
 }
