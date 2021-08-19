@@ -2327,6 +2327,7 @@ input, select, textarea {
 		text-decoration: none;
 		text-transform: uppercase;
 		white-space: nowrap;
+
 	}
 
 		input[type="submit"].icon:before,
@@ -2444,7 +2445,7 @@ input, select, textarea {
 	input[type="button"],
 	button,
 	.button {
-		background-color: transparent;
+		background-colo:transparent;
 		box-shadow: inset 0 0 0 2px #212931;
 		color: #212931 !important;
 	}
@@ -2463,9 +2464,9 @@ input, select, textarea {
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
-			background-color: #272c31;
-			box-shadow: none;
-			color: #ffffff !important;
+			background-color:none;
+			box-shadow: inset 0 0 0 2px #1e2124;
+			color: #212931 !important;
 		}
 
 			input[type="submit"].primary:hover,
@@ -2473,7 +2474,8 @@ input, select, textarea {
 			input[type="button"].primary:hover,
 			button.primary:hover,
 			.button.primary:hover {
-				background-color: #18bfef;
+				box-shadow: inset 0 0 0 2px #18bfef;
+				color: #18bfef !important;
 			}
 
 /* Form */
